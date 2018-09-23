@@ -26,6 +26,7 @@ describe 'Show page' do
   it 'renders properly' do
     visit student_path(@student)
     expect(page.status_code).to eq(200)
+
   end
 
   it 'renders the first name in a h1 tag' do
